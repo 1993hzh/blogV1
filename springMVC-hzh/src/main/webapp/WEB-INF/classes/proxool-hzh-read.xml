@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<something-else-entirely>
+	<proxool>
+		<alias>hzhReadPool</alias>
+		<driver-url>jdbc:mysql://localhost/blog</driver-url>
+		<!--
+		<driver-url>jdbc:mysql://w.rdc.sae.sina.com.cn:3307/app_hzhprivate</driver-url>
+		-->
+		
+		<driver-class>com.mysql.jdbc.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="root" />
+			<property name="password" value="199368" />
+<!-- 			
+			<property name="user" value="4y44k2010n" />
+			<property name="password" value="4jh5i313yliz3zhzj5z5yxx5h2x2iz45yymm02kx" />
+ -->
+			<property name="useUnicode" value="true" />
+			<property name="characterEncoding" value="utf-8" />
+		</driver-properties>
+		<house-keeping-sleep-time>10</house-keeping-sleep-time>
+		<prototype-count>2</prototype-count>
+		<maximum-connection-count>10</maximum-connection-count>
+		<minimum-connection-count>3</minimum-connection-count>
+		<proxool.simultaneous-build-throttle>100</proxool.simultaneous-build-throttle>
+		<house-keeping-test-sql>select CURRENT_DATE</house-keeping-test-sql>
+	</proxool>
+</something-else-entirely>
