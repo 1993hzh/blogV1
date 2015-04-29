@@ -2,7 +2,7 @@
 <something-else-entirely>
 	<proxool>
 		<alias>hzhWritePool</alias>
-		<driver-url>jdbc:mysql://localhost/blog</driver-url>
+		<driver-url>jdbc:mysql://localhost/website</driver-url>
 		<!-- 
 		<driver-url>jdbc:mysql://w.rdc.sae.sina.com.cn:3307/app_hzhprivate</driver-url>
 		 -->

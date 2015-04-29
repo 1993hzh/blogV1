@@ -45,9 +45,9 @@ public class OnlineListener implements HttpSessionListener {
 		 * 下面是计算总访问量
 		 */
 		++totalNumAmongCheckTime;
-		ctx.setAttribute("totalNum", threadRun() + totalNumAmongCheckTime);
-		logger.error("在线人数：" + onlineNum);
-		logger.error("总人数：" + totalNumAmongCheckTime);
+//		ctx.setAttribute("totalNum", threadRun() + totalNumAmongCheckTime);
+		logger.info("在线人数：" + onlineNum);
+		logger.info("总人数：" + totalNumAmongCheckTime);
 	}
 
 	@Override
