@@ -4,16 +4,16 @@
 		<alias>hzhReadPool</alias>
 		<driver-url>jdbc:mysql://localhost/website</driver-url>
 		<!--
-		<driver-url>jdbc:mysql://w.rdc.sae.sina.com.cn:3307/app_hzhprivate</driver-url>
+		<driver-url>jdbc:mysql://***:3307/app_hzhprivate</driver-url>
 		-->
 		
 		<driver-class>com.mysql.jdbc.Driver</driver-class>
 		<driver-properties>
-			<property name="user" value="root" />
-			<property name="password" value="199368" />
+			<property name="user" value="**" />
+			<property name="password" value="***" />
 <!-- 			
-			<property name="user" value="4y44k2010n" />
-			<property name="password" value="4jh5i313yliz3zhzj5z5yxx5h2x2iz45yymm02kx" />
+			<property name="user" value="***" />
+			<property name="password" value="***" />
  -->
 			<property name="useUnicode" value="true" />
 			<property name="characterEncoding" value="utf-8" />
